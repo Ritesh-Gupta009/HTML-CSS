@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table border="1"> 
+            <th colspan="2"> Fill the  below Data </th>
+       
+        <tr>
+            <td> Name </td>
+            <td> <input type="text"></td>
+        </tr>
+        
+        <tr>
+            <td> Email Id </td>
+            <td> <input type="email"></td>
+        </tr>
+
+        <tr>
+            <td> Password </td>
+            <td> <input type="password" placeholder="enter your number" required pattern="[0-9]10" title="max 10 number digit"</td>
+        </tr>
+
+        <tr>
+            <td> Feedback </td>
+            <td> <textarea rows="5" cols="25"></textarea> </td>
+        </tr>
+
+        <tr>
+            <td> Language </td>
+            <td> <input type="checkbox"> Hindi
+                 <input type="checkbox"> Gujarati
+                 <input type="checkbox"> English
+                 <input type="checkbox">Marathi
+        </tr>
+        <tr>
+            <td> Gender </td>
+            <td> <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+        </tr>
+        <tr>
+            <td> Subject </td>
+            <td> <input type="checkbox" name="Language">Web
+                <input type="checkbox" name="Language" >Graphics
+                <input type="checkbox" name="Language"> Developer
+                <input type="checkbox" name="Language">Software
+        </tr>
+        <tr>
+            <td></td>
+                <td><button type="button" > Reset All </button>
+                    <button type="button" > Submit All Details </button>
+            </td>
+    </table>
+    </form>
+</body>
+</html>
