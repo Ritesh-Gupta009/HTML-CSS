@@ -1,0 +1,64 @@
+                         Module (CSS and CSS 3)-2
+(1) CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc.
+
+(2) Confusion due to many CSS levels. Beginners are more vulnerable to this issue. ...
+Cross-Browser Issues. Different browsers work differently. ...
+Security Issues. Security is important in today's world driven by technology and data. ...
+Extra Work for Developers.
+
+(3) Unlike CSS2, which was comprised of a single document, CSS3 has its specifications divided into many individual modules
+ 
+(4) These are human-readable identifiers that indicate which stylistic features you want to modify. For example, font-size , width , background-color .
+
+(5) Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency
+
+(6) Set it to the color name or code you want and place it inside a style attribute. Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+(7)  The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+ 
+(8) The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+(9) The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+(10) To horizontally center a block element (like <div>), use margin: auto; Setting the width of the element will prevent it from stretching out to the edges of its container.
+
+(11) The CSS specifications are maintained by the World Wide Web Consortium (W3C).
+
+(12) Inline - by using the style attribute inside HTML elements.
+     Internal - by using a <style> element in the <head> section.
+     External - by using a <link> element to link to an external CSS file.
+
+(13) Embedded styles are located in the header of a page, and apply to that entire page.
+
+(14)  external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage.
+
+(15) Advantage of CSS :
+      1) Faster Page Speed. More code means slower page speed. ...
+      2) Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting. ...
+      3) Quicker Development Time. ...
+      4) Easy Formatting Changes. ...
+      5) Compatibility Across Devices.
+    Disadvange of CSS :
+     (1)Browser dependency - Style sheets format things slightly differently on different browsers. Unfortunately, browsers have different support for HTML and style sheets.
+
+(16) A CSS selector selects the HTML element(s) for styling purpose. CSS selectors select HTML elements according to its id, class, type, attribute etc.
+
+(17)  You could have one set of style rules for computer screens, one for printers, one for handheld devices, one for television-type devices, and so on.
+
+(18)  A selector group and an associated declarations block, together, are called a ruleset, 
+
+(19) => Get started. Open the file 'grid1. ...
+      Check CSS for the grid. ...
+      Define grid positions. ...
+      Use a grid template. ...
+      Define the template. ...
+      Link the template to the class. ...
+      Make it responsive. ...
+      Work on a real layout.
+
+
+
+
+
+
+
